@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+    <title>Table - JS</title>
+</head>
+
+<body>
+    <div class="input-box">
+        <form>
+            <input type="text" id="input-firstname" placeholder="Ism">
+            <input type="text" id="input-lastname" placeholder="Familiya">
+            <input type="text" id="input-adress" placeholder="Manzil">
+        </form>
+
+        <div class="gender">
+            <div class="left">
+                <input type="radio" name="gender" id="male" value="Erkak">
+                <label class="label">Erkak</label>
+            </div>
+            <div class="right">
+                <input type="radio" name="gender" id="female" value="Ayol">
+                <label class="label">Ayol</label>
+            </div>
+        </div>
+
+        <div class="btn-box">
+            <button id="btn">Jadvalga Saqlash</button>
+        </div>
+    </div>
+
+    <div class="table-box">
+        <table>
+            <thead class="thead-none" id="thead">
+                <tr>
+                    <th>Ism</th>
+                    <th>Familiya</th>
+                    <th>Jinsi</th>
+                    <th>Manzil</th>
+                </tr>
+            </thead>
+
+            <tbody id="tbody">
+                <!-- <tr>
+                    <td>John</td>
+                    <td>Johnov</td>
+                    <td>Erkak</td>
+                    <td>London</td>
+                </tr> -->
+            </tbody>
+        </table>
+    </div>
+</body>
+
+<script src="./js/script.js"></script>
+
+</html>
